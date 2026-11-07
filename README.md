@@ -6,7 +6,7 @@
 
 ---
 
-## ✦ Overview
+##  Overview
 
 **The Daily Phrontistery** (from the Greek *phrontistērion*, a place for reflection and study) replaces the utilitarian blank tab with a quiet, museum-grade curatorial experience. 
 
@@ -16,9 +16,9 @@ Whether configured as a **synchronous Daily Word** (the same word each day for m
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🖼️ Curatorial Fine Art & Semantic Gist Pairing
+###  Curatorial Fine Art & Semantic Gist Pairing
 - **Intelligent Gist Classifier**: Every word is automatically analyzed across 10 semantic archetypes:
   - *Fauna & Zoology* (Audubon, Stubbs, Dürer)
   - *Botany & Flora* (Redouté, Van Gogh, botanical engravings)
@@ -34,13 +34,13 @@ Whether configured as a **synchronous Daily Word** (the same word each day for m
 - **Atmospheric Starlight & Dust**: Optional floating ambient dust particles tuned to the painting’s color palette.
 - **Art Focus Mode (`V` key)**: Dims the typography so you can inspect the full painting without obstruction.
 
-### 🎚️ Word Frame Translucency & Opacity Slider
+###  Word Frame Translucency & Opacity Slider
 - **Translucent Glassmorphism**: Toggleable card translucency with a slider calibrated from **50% (half transparent)** to **100% (solid)**.
 - **Immersive Art Visibility**: Allows the color, brushwork, and motion of the painting behind the card to intensify the emotional depth of reading the word.
 - **On-Card Quick Cycle**: Click the discreet `Opacity: 65%` badge directly in the card header to jump through presets on the fly.
 - **High-Contrast Typography**: Layered `backdrop-blur` and ambient drop-shadows ensure crisp text legibility regardless of background brightness.
 
-### 🗣️ Versatile Pronunciation Engine
+###  Versatile Pronunciation Engine
 - **Supports Any 17,000+ Word List**: Operates automatically without needing pre-existing phonetics in your word list.
 - **5 Selectable Pronunciation Styles** (in Layout Studio):
   1. **Phonetic Respelling** (e.g. `[AHRD-woolf]`, `[uh-BASS-ih-nayt]`) — Friendly English syllables with stressed syllables capitalized.
@@ -51,18 +51,18 @@ Whether configured as a **synchronous Daily Word** (the same word each day for m
 - **Native Web Speech Pronunciation (`P` key)**: Natural voice synthesis spoken aloud at the press of a button.
 - **Wiktionary Academic IPA**: Queries scholarly IPA transcriptions in the background and caches them locally.
 
-### 📐 5 Editorial Layout Presets
+###  5 Editorial Layout Presets
 - **Museum Placard**: Centered gallery placard with framed borders, gist badge, and clean action row.
 - **Monograph Folio**: Left-anchored scholarly folio with illuminated drop cap and margin commentary notes.
 - **Zenith Minimal**: Pure, unadorned typography maximizing negative space and painting visibility.
 - **Split Curatorial**: Two-column layout showcasing a high-resolution art plate on the left and full scholarly lexicon on the right.
 - **Broadsheet Gazette**: Double-column historical newspaper layout with dateline and classical masthead.
 
-### 📚 17,000+ Custom Word List Importer
+###  17,000+ Custom Word List Importer
 - Import your own Phrontistery dataset (or custom dictionary) via JSON anytime.
 - Instantly hydrates all words with automatic semantic gist categorization, etymological web lookups, and phonetic respellings.
 
-### 🧭 Research, Archive & Study Tools
+###  Research, Archive & Study Tools
 - **Lexicon Archive Drawer (`A` key)**: Search all 17,000+ words with real-time fuzzy filtering, part of speech tags, and instant jumping.
 - **Previous Words Ticker**: Horizontal tape at the bottom displaying your recently discovered words.
 - **Favorites & Bookmarks**: Save notable words locally for revision.
@@ -71,7 +71,7 @@ Whether configured as a **synchronous Daily Word** (the same word each day for m
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 | Key | Action |
 | :--- | :--- |
@@ -85,7 +85,7 @@ Whether configured as a **synchronous Daily Word** (the same word each day for m
 
 ---
 
-## 🚀 Installation Guide
+##  Installation Guide
 
 ### Option 1: Load as a Google Chrome Extension (Manifest V3)
 
@@ -134,7 +134,7 @@ npm run lint
 
 ---
 
-## 📋 Custom 17,000-Word JSON Specification
+##  Custom 17,000-Word JSON Specification
 
 You can import any dictionary list into The Daily Phrontistery via the **Layout Studio** -> **Import Custom JSON** button. 
 
@@ -170,7 +170,7 @@ The importer supports two standard JSON formats:
 
 ---
 
-## 🛠️ Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 ```
 daily-phrontistery/
@@ -210,16 +210,16 @@ daily-phrontistery/
 
 ---
 
-## 🔒 Privacy, Offline Capability & Network Transparency
+##  Privacy, Offline Capability & Network Transparency
 
-### 🛡️ 100% Private — Zero Telemetry & Local Storage
+###  100% Private — Zero Telemetry & Local Storage
 - **Zero Tracking**: No Google Analytics, telemetry, trackers, or advertising beacons.
 - **Local Storage Only**: Your bookmark history, layout choices, and custom dictionaries are saved exclusively on your own computer in browser `localStorage`.
 - **Zero Identification**: No cookies, logins, or tracking identifiers.
 
 ---
 
-### 🌐 Network Disclosure Matrix (When, Why, and How)
+###  Network Disclosure Matrix (When, Why, and How)
 
 For complete transparency and compliance with Chrome Web Store User Data policies, here is the full record of all network endpoints accessed by The Daily Phrontistery:
 
@@ -232,7 +232,7 @@ For complete transparency and compliance with Chrome Web Store User Data policie
 
 ---
 
-### 📴 What Operates 100% Offline (Local Computation)
+###  What Operates 100% Offline (Local Computation)
 
 - **17,000+ Obscure Lexicon**: All dictionary entries are stored and queried on-device.
 - **Algorithmic Phonetic Engine**: Syllable splitting, vowel stress, and phonetic respellings are computed entirely in client-side TypeScript.
@@ -242,7 +242,7 @@ For complete transparency and compliance with Chrome Web Store User Data policie
 
 ---
 
-## 📜 License
+## License
 
 Created with devotion to the preservation of rare English terminology and fine art.  
 Public domain fine art assets are provided under Open Access (CC0) terms by The Metropolitan Museum of Art, The Art Institute of Chicago, and The Cleveland Museum of Art.
